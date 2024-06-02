@@ -10,9 +10,9 @@ public class GenericDAO extends SQLiteOpenHelper {
 
     private static final int Database_Ver = 1;
 
-    private static final String Create_Table_Team = "";
+    private static final String Create_Table_Team = "CREATE TABLE team (id INT NOT NULL PRIMARY KEY,name VARCHAR(100) NOT NULL,city VARCHAR(30) NOT NULL);";
 
-    private static final String Create_Table_Player = "";
+    private static final String Create_Table_Player = "CREATE TABLE player (number INT NOT NULL PRIMARY KEY,name VARCHAR(100) NOT NULL,birthDate VARCHAR(30) NOT NULL,height DECIMAL(6,2) NOT NULL,weight DECIMAL(6,2) NOT NULL,team_id INT NOT NULL, FOREIGN KEY (team_id) REFERENCES team(id));";;
 
     public GenericDAO(Context context){
         super(context, Database, null, Database_Ver);

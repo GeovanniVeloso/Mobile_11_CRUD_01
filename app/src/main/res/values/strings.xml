@@ -5,8 +5,12 @@
     <string name="Register">Cadastrar</string>
     <string name="Delete">Excluir</string>
     <string name="Update">Modificar</string>
+    <string name="Search">Procurar</string>
     <string name="List">Listar</string>
     <string name="IName">Nome</string>
     <string name="ICity">Cidade</string>
     <string name="INumber">Número</string>
+    <string name="IDate">Data de Nascimento</string>
+    <string name="IHeight">Altura</string>
+    <string name="IWeight">Peso</string>
 </resources>
