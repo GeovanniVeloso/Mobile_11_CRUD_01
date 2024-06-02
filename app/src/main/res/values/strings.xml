@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mobile_11_CRUD_01</string>
+    <string name="Team">Times</string>
+    <string name="Player">Jogadores</string>
+    <string name="Register">Cadastrar</string>
+    <string name="Delete">Excluir</string>
+    <string name="Update">Modificar</string>
+    <string name="List">Listar</string>
+    <string name="IName">Nome</string>
+    <string name="ICity">Cidade</string>
+    <string name="INumber">Número</string>
+</resources>
